@@ -1,0 +1,88 @@
+MÔ HÌNH TRUYỀN THÔNG MẠNG
+  I.Khái Niệm Host 
+    - Định nghĩa quốc tế : Thực thể có khả năng truyền ứng dụng 
+    - Ứng dụng ví dụ : 
+      + Lướt web
+      + DNS
+      + Telnet  
+      + TFPP
+      + FTP
+    - Ví dụ gần gũi: PC
+  II.Các Mô Hình Truyền Thông
+    - Mô hình cũ :
+      + Dựa trên sự độc quyền 
+      + Máy IBM chỉ giao tiếp với IBM
+      + Ứng dụng chỉ từ 1 nhà cung cấp
+      + Không có tính tương thích 
+    - Mô hình hiện tại :
+      + Dựa trên sự chuẩn hóa
+      + Máy tính sử dụng nhiều sản phẩm phần mềm khác nhau
+      + Máy của các hãng khác nhau giao tiếp được với nhau
+      + Thực hiện theo phương pháp phân lớp (Layer Approach) 
+  III.Mô Hình Phân Lớp (Layer Approach)
+    - Khái niệm :
+      + Nhiều công việc cần tiến hành khi truyền dữ liệu  
+      + Chia các công việc thành nhiều nhóm (lớp)
+      + Mỗi nhóm gồm các công việc có tính chất tương tự 
+    - Ví dụ công việc cần chia nhóm :
+      + Loại cáp sử dụng (chéo, đồng trục, xoắn đôi, quang)
+      + Đóng cấu trúc khung dữ liệu
+      + Tìm đường đi tối ưu (Việt Nam -> Mỹ)
+      + Cơ chế truyền dẫn
+      + Xây dựng chương trình ứng dụng (duyệt web)
+    - Lợi ích của phân lớp :
+      + Giảm thiểu độ phức tạp (chuyên biệt hóa)
+      + Chuẩn hóa các giao diện (quy định đặc tính kỹ thuật cho mỗi lớp)
+      + Đảm bảo tính tương thích về công nghệ
+      + Thúc đẩy kỹ thuật Module hóa (chuyên môn hóa sản xuất)
+      + Đơn giản hóa việc dạy và học 
+  IV.Mô Hình OSI (Open Systems Interconnection)
+    - Tổng quan :
+      + Mô hình phân lớp nổi tiếng
+      + Viết tắt : OSI 
+      + Phác thảo 1977 bởi ISO
+      + Hoàn thiện 1984
+      + Chia thành 7 lớp công việc 
+    - Các lớp (Thứ tự từ trên xuống) :
+      Lớp 7.Application (Ứng dụng)
+      Lớp 6.Presentation (Trình bày)
+      Lớp 5.Session (Phiên)
+      Lớp 4.Transport (Vận chuyển)
+      Lớp 3.Network (Mạng)
+      Lớp 2.Data link (Liên kết dữ liệu)
+      Lớp 1.Physical (Vật lý)
+  V.Mô Hình OSI (7 lớp)
+    1.Physical (Lớp 1 - Vật Lý) 
+      - Truyền dòng bit nhị phân (thô)
+      - Quy định đường truyền vật lý :
+        + Cơ,Điện,Quang
+        + Thủ Tục,Chức Năng 
+      - Quy định các đặc điểm :
+        + Loại cáp (UTP,FTP,Đồng trục,Quang)
+        + Đầu nối (chân 1236)
+        + Cự ly (tối đa 100m)
+        + Mức điện áp (1=5v,0=0V)
+        + Kỹ thuật điều chế tín hiệu (BPSK,QPSK,OFDM)
+        + Tốc độ đường truyền (2Mbps,8Mbps) 
+    2.Data Link (Lớp 2 - Liên Kết Dữ Liệu)
+      - Điều khiển truy nhập vào đường truyền vật lý
+      - Giao tiếp với lớp Network (bên trên)
+      - Chức năng : 
+        + Định dạng dữ liệu cho việc truyền
+        + Cấu trúc hóa dữ liệu (Frame)
+        + Cơ chế dò lỗi (ví dụ: trường kiểm tra lỗi CRC)
+    3.Net Work (Lớp 3 - Mạng) 
+      - Phân phối dữ liệu tối ưu từ điểm này đến điểm kia
+      - Routing (Định tuyến) :
+        + Chọn đường đi tối ưu nhất trên gói dữ liệu
+        + Sử dụng các giao thức định tuyến
+      - Địa chỉ Logic :
+        + Dùng để định danh các điểm
+        + Ví dụ: Địa chỉ IP 192.168.1.1 
+
+
+
+
+
+
+
