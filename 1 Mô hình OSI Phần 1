@@ -1,6 +1,45 @@
-
-
-
-
-
-
+Khái niệm Host 
+  1.Định nghĩa: Thực thể truyền ứng dụng
+  2.Ứng dụng tiêu biểu: Web,DNS,Telnet,FTP
+  3.Thiết bị thường gặp: PC
+Các loại mô hình truyền thông
+  1.Mô hình độc quyền 
+      - Dựa trên sự độc quyền
+      - Máy hãng A chỉ giao tiếp với máy hãng A
+      - Phần mềm chỉ do một nhà cung cấp
+      - Không có tính tương thích
+  2.Mô hình chuẩn hóa
+      - Máy sử dụng nhiều sản phẩm phần mềm khác hãng
+      - Máy Khác hãng vẫn giao tiếp được
+      - Thực hiện theo phương pháp phân lớp
+Mô hình phân lớp 
+  1.Khái niệm 
+      - Chia công việc truyền dữ liệu thành nhiều nhóm (lớp)
+      - Các công việc trong nhóm có tính chất tương tự
+  2.Ví dụ việc cần chia 
+      - Sử dụng loại cáp gì (chéo,quang,..)
+      - Cấu trúc khung dữ liệu 
+      - Tìm đường đi tối ưu
+  3.Lợi ích của phân lớp
+      - Giảm thiểu độ phức tạp hệ thống
+      - Chuẩn hóa giao diện các dòng sản phẩm
+      - Đảm bảo tính tương thích công nghệ
+      - Thúc đẩy kỹ thuật Module hóa/Chuyên môn hóa
+      - Đơn giản hóa việc dạy và học 
+Mô hình tham chiếu OSI
+  1.Thông tin chung 
+      - Open systems Interconnectio
+      - Phác thảo 1977, Hoàn thiện 1984 (IOS)
+      - Tổng cộng 7 lớp công việc
+  2.Các lớp (Thứ tự 7->1)
+      7.Application (ứng dụng)
+      6.Presentation (trình bày)  
+      5.Session (phiên)
+      4.Transport (vận chuyển)
+      3.Network (mạng)
+      2.Data link (liên kết dữ liệu)
+      1.physical (vật lý)
+  3.Chức năng lớp vật ký 
+      - truyền dòng bit thô qua đường truyền
+      - Định nghĩa thủ tục về điện,cơ,chức năng
+      - Thiết lập và duy trì kết nối vật lý 
