@@ -1,9 +1,15 @@
+Một LAN sẽ có 2 phần là router và host
+  router phổ biến sẽ có 2 ip là puclic và private 
 1.Khái niệm host
   - định nghĩa  
       + thiết bị đầu cuối
       + có khả năng gửi và nhận dữ liệu
       + có khả năng giao tiếp với host khác
-      + host phải có địa chỉ mạng để tham gia giao tiếp 
+      + host hoạt động ở tất cả 7 tầng nhưng ở tầng 3 network OSI khi nói đến ip 
+      + host có thể trùng ip public nhưng không được trùng ip private mạng nội bộ 
+      + host phải có địa chỉ mạng để tham gia giao tiếp
+      + không phải host nào cũng nhất định có ip puclic -> nhiều host dùng ip private, nat để ra internet
+      + host phải có card mạng để tham gia vào mạng 
   - ứng dụng tiêu biểu
       + web,dns,telnet,ftp,email,ssh,...
   - thiết bị thường gặp
