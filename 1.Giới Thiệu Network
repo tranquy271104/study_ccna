@@ -1,0 +1,44 @@
+Thành Phần Trong Hệ Thống Network
+- Host (end device - đầu cuối)
+Là các thiết bị có khả năng tạo và nhận hay xử lý dữ liệu 
+VD: PC, laptop, in, phát,... server 
+mail server
+web server
+file server 
+
+- Thiết bị trung gian
++) switch
++) router 
++) modem 
++) firewall 
+
+- Phương tiện truyền dẫn 
++) dây đồng, lan, mạng -> truyền bằng tín hiệu điện
+Cat 5: Băng thông tối đa 100Mbps, độ dài truyền tải tối đa vài chục mét
+Cat 5e: Băng thông tối đa 1000Mbps, độ dài truyền tải tối đa 100m
+Cat 6: Băng thông tối đa 10000Mbps, độ dài truyền tải tối đa 100m, ít suy hao hơn
+    Băng thông: lượng dữ liệu truyền được trong 1 đơn vị time 
+    Mbps = Megabit per second -> đo dữ liệu 
+    suy hao: sự giảm cường độ tín hiệu khi truyền đi trong môi trường 
++) dây quang -> truyền bằng ánh sáng 
+truyền tải xa, ít suy hao 
++) mạng không dây -> truyền bằng sóng vô tuyến (điện từ) 
+wifi
+blutooth
+hồng ngoại 
+
+- topology (bản vẽ)
++) Physical topology: bản vẽ vật lý = thể hiện kết nối vật lý và vị trí đặt thiết bị
++) Logical topology: bản vẽ logic = thể hiện về mặt giao thức, chúc năng, địa chỉ của các thiết bị mạng 
+
+- 1 số tiêu chuẩn trong việc thiết kế hệ thống mạng
++) Khả năng xử lý lỗi, dự phòng 
++) Khả năng mở rộng tương lai 
++) Chất lượng dịch vụ 
++) Bảo mật  
+
+
+
+
+
+
