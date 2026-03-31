@@ -1,1 +1,45 @@
+- Có 2 giao diện để điều khiển (cấu hình, thay đổi thông số) thiết bị
++) GUI: giao diện đồ họa
+  window, ios, android,...
+  Thân thiện người dùng 
++) CLI: giao diện dòng lệnh 
+  khó sử dụng 
+
+- Truy cập thiết bị 
++) Console: sử dụng dây console để cắm vào cổng console 
+Ưu điểm: dễ dàng
+Nhược điểm: khoảng cách ngắn, thiếu linh hoạt
++) Remote: telnet, ssh
+Ưu điểm: không giới hạn khoảng cách, linh hoạt
+Nhược điểm: khó khăn hơn 
+Telnet: không mã hóa dữ liệu trên đường truyền
+SSH: mã hóa dữ liệu trên đường truyền -> bảo mật hơn 
++) Tìm hiểu OS Cisco 
+- user mode -                 router>
+Tại mode này hiển thị được 1 số thông số cơ bản của thiết bị
+Không thể cấu hình thay đổi thông số thiết bị
+
+- privileged mode -           router# 
+Tại mode này hiển thị được mọi thông số của thiết bị 
+Không thể cấu hình 
+
+- config mode -               router(config)# 
+Có thể cấu hình thay đổi thông số thiết bị 
+
+- sub-config mode
+Là mode cấu hình chi tiết của 1 phần nào của thiết bị 
+
+user mode -> privileged mode: enable
+privileged mode -> config mode: configure terminal 
+Command:
+hosname Tranquy - đổi tên thiết bị 
+exit - lùi về mode liền trước 
+end  - lùi thẳng về privileged mode 
+end = ctrl+c = ctrl+z 
+
+
+
+
+
+
 
